@@ -31,12 +31,12 @@ The organization of the dataset should follow:
 ##
 If you find CECT useful for your research, please cite our paper as:
 ```
-@misc{liu2023cect,
-      title={CECT: Controllable Ensemble CNN and Transformer for COVID-19 Image Classification}, 
-      author={Zhaoshan Liu and Lei Shen},
-      year={2023},
-      eprint={2302.02314},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@article{liu2024cect,
+  title={CECT: Controllable ensemble CNN and transformer for COVID-19 image classification},
+  author={Liu, Zhaoshan and Shen, Lei},
+  journal={Computers in Biology and Medicine},
+  pages={108388},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
