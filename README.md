@@ -1,16 +1,17 @@
-# CECT
-<a href='https://arxiv.org/abs/2302.02314'><img src='https://img.shields.io/badge/ArXiv-2302.02314-red' /></a> 
+# CECT: CNN-Transformer Classifier
 
 Official Pytorch Implementation for Paper “CECT: Controllable Ensemble CNN and Transformer for COVID-19 Image Classification”
 
-To train CECT on your own dataset, run the below command in the terminal:
+## Preparation
+
+To train CECT on your dataset, run the below command in the terminal
 ```
 python train.py
 ```
 
-You should have a "recording" folder located at the root.
+You should have a "recording" folder located at the root
 
-The organization of the dataset should follow:
+The organization of the dataset should follow
 ```
 ├── datasets
     ├── your_dataset_name
@@ -28,8 +29,9 @@ The organization of the dataset should follow:
         └── test
 ```
 
-##
-If you find CECT useful for your research, please cite our paper as:
+## Citation
+
+If you find CECT useful for your research, please cite our paper as
 ```
 @article{liu2024cect,
   title={CECT: Controllable ensemble CNN and transformer for COVID-19 image classification},
